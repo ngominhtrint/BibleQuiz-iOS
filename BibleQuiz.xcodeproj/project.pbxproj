@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB248E582201E80700A8F053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB248E572201E80700A8F053 /* AppDelegate.swift */; };
+		EB248E5A2201E80700A8F053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB248E592201E80700A8F053 /* ViewController.swift */; };
+		EB248E5D2201E80700A8F053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB248E5B2201E80700A8F053 /* Main.storyboard */; };
+		EB248E602201E80700A8F053 /* BibleQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB248E5E2201E80700A8F053 /* BibleQuiz.xcdatamodeld */; };
+		EB248E622201E80800A8F053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB248E612201E80800A8F053 /* Assets.xcassets */; };
+		EB248E652201E80800A8F053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB248E632201E80800A8F053 /* LaunchScreen.storyboard */; };
+		EB248E702201E80800A8F053 /* BibleQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB248E6F2201E80800A8F053 /* BibleQuizTests.swift */; };
+		EB248E7B2201E80800A8F053 /* BibleQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB248E7A2201E80800A8F053 /* BibleQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB248E6C2201E80800A8F053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB248E4C2201E80700A8F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB248E532201E80700A8F053;
+			remoteInfo = BibleQuiz;
+		};
+		EB248E772201E80800A8F053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB248E4C2201E80700A8F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB248E532201E80700A8F053;
+			remoteInfo = BibleQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB248E542201E80700A8F053 /* BibleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB248E572201E80700A8F053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB248E592201E80700A8F053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB248E5C2201E80700A8F053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB248E5F2201E80700A8F053 /* BibleQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BibleQuiz.xcdatamodel; sourceTree = "<group>"; };
+		EB248E612201E80800A8F053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB248E642201E80800A8F053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB248E662201E80800A8F053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB248E6B2201E80800A8F053 /* BibleQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB248E6F2201E80800A8F053 /* BibleQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuizTests.swift; sourceTree = "<group>"; };
+		EB248E712201E80800A8F053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB248E762201E80800A8F053 /* BibleQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB248E7A2201E80800A8F053 /* BibleQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuizUITests.swift; sourceTree = "<group>"; };
+		EB248E7C2201E80800A8F053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB248E512201E80700A8F053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E682201E80800A8F053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E732201E80800A8F053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB248E4B2201E80700A8F053 = {
+			isa = PBXGroup;
+			children = (
+				EB248E562201E80700A8F053 /* BibleQuiz */,
+				EB248E6E2201E80800A8F053 /* BibleQuizTests */,
+				EB248E792201E80800A8F053 /* BibleQuizUITests */,
+				EB248E552201E80700A8F053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB248E552201E80700A8F053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB248E542201E80700A8F053 /* BibleQuiz.app */,
+				EB248E6B2201E80800A8F053 /* BibleQuizTests.xctest */,
+				EB248E762201E80800A8F053 /* BibleQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB248E562201E80700A8F053 /* BibleQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				EB248E572201E80700A8F053 /* AppDelegate.swift */,
+				EB248E592201E80700A8F053 /* ViewController.swift */,
+				EB248E5B2201E80700A8F053 /* Main.storyboard */,
+				EB248E612201E80800A8F053 /* Assets.xcassets */,
+				EB248E632201E80800A8F053 /* LaunchScreen.storyboard */,
+				EB248E662201E80800A8F053 /* Info.plist */,
+				EB248E5E2201E80700A8F053 /* BibleQuiz.xcdatamodeld */,
+			);
+			path = BibleQuiz;
+			sourceTree = "<group>";
+		};
+		EB248E6E2201E80800A8F053 /* BibleQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB248E6F2201E80800A8F053 /* BibleQuizTests.swift */,
+				EB248E712201E80800A8F053 /* Info.plist */,
+			);
+			path = BibleQuizTests;
+			sourceTree = "<group>";
+		};
+		EB248E792201E80800A8F053 /* BibleQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB248E7A2201E80800A8F053 /* BibleQuizUITests.swift */,
+				EB248E7C2201E80800A8F053 /* Info.plist */,
+			);
+			path = BibleQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB248E532201E80700A8F053 /* BibleQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB248E7F2201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuiz" */;
+			buildPhases = (
+				EB248E502201E80700A8F053 /* Sources */,
+				EB248E512201E80700A8F053 /* Frameworks */,
+				EB248E522201E80700A8F053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleQuiz;
+			productName = BibleQuiz;
+			productReference = EB248E542201E80700A8F053 /* BibleQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB248E6A2201E80800A8F053 /* BibleQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB248E822201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuizTests" */;
+			buildPhases = (
+				EB248E672201E80800A8F053 /* Sources */,
+				EB248E682201E80800A8F053 /* Frameworks */,
+				EB248E692201E80800A8F053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB248E6D2201E80800A8F053 /* PBXTargetDependency */,
+			);
+			name = BibleQuizTests;
+			productName = BibleQuizTests;
+			productReference = EB248E6B2201E80800A8F053 /* BibleQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB248E752201E80800A8F053 /* BibleQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB248E852201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuizUITests" */;
+			buildPhases = (
+				EB248E722201E80800A8F053 /* Sources */,
+				EB248E732201E80800A8F053 /* Frameworks */,
+				EB248E742201E80800A8F053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB248E782201E80800A8F053 /* PBXTargetDependency */,
+			);
+			name = BibleQuizUITests;
+			productName = BibleQuizUITests;
+			productReference = EB248E762201E80800A8F053 /* BibleQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB248E4C2201E80700A8F053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RoverDream;
+				TargetAttributes = {
+					EB248E532201E80700A8F053 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB248E6A2201E80800A8F053 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB248E532201E80700A8F053;
+					};
+					EB248E752201E80800A8F053 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB248E532201E80700A8F053;
+					};
+				};
+			};
+			buildConfigurationList = EB248E4F2201E80700A8F053 /* Build configuration list for PBXProject "BibleQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB248E4B2201E80700A8F053;
+			productRefGroup = EB248E552201E80700A8F053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB248E532201E80700A8F053 /* BibleQuiz */,
+				EB248E6A2201E80800A8F053 /* BibleQuizTests */,
+				EB248E752201E80800A8F053 /* BibleQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB248E522201E80700A8F053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB248E652201E80800A8F053 /* LaunchScreen.storyboard in Resources */,
+				EB248E622201E80800A8F053 /* Assets.xcassets in Resources */,
+				EB248E5D2201E80700A8F053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E692201E80800A8F053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E742201E80800A8F053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB248E502201E80700A8F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB248E5A2201E80700A8F053 /* ViewController.swift in Sources */,
+				EB248E602201E80700A8F053 /* BibleQuiz.xcdatamodeld in Sources */,
+				EB248E582201E80700A8F053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E672201E80800A8F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB248E702201E80800A8F053 /* BibleQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB248E722201E80800A8F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB248E7B2201E80800A8F053 /* BibleQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB248E6D2201E80800A8F053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB248E532201E80700A8F053 /* BibleQuiz */;
+			targetProxy = EB248E6C2201E80800A8F053 /* PBXContainerItemProxy */;
+		};
+		EB248E782201E80800A8F053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB248E532201E80700A8F053 /* BibleQuiz */;
+			targetProxy = EB248E772201E80800A8F053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB248E5B2201E80700A8F053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB248E5C2201E80700A8F053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB248E632201E80800A8F053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB248E642201E80800A8F053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB248E7D2201E80800A8F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB248E7E2201E80800A8F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB248E802201E80800A8F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB248E812201E80800A8F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB248E832201E80800A8F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleQuiz.app/BibleQuiz";
+			};
+			name = Debug;
+		};
+		EB248E842201E80800A8F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleQuiz.app/BibleQuiz";
+			};
+			name = Release;
+		};
+		EB248E862201E80800A8F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleQuiz;
+			};
+			name = Debug;
+		};
+		EB248E872201E80800A8F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZQFWGZMG;
+				INFOPLIST_FILE = BibleQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.biblequiz.BibleQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB248E4F2201E80700A8F053 /* Build configuration list for PBXProject "BibleQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB248E7D2201E80800A8F053 /* Debug */,
+				EB248E7E2201E80800A8F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB248E7F2201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB248E802201E80800A8F053 /* Debug */,
+				EB248E812201E80800A8F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB248E822201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB248E832201E80800A8F053 /* Debug */,
+				EB248E842201E80800A8F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB248E852201E80800A8F053 /* Build configuration list for PBXNativeTarget "BibleQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB248E862201E80800A8F053 /* Debug */,
+				EB248E872201E80800A8F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB248E5E2201E80700A8F053 /* BibleQuiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB248E5F2201E80700A8F053 /* BibleQuiz.xcdatamodel */,
+			);
+			currentVersion = EB248E5F2201E80700A8F053 /* BibleQuiz.xcdatamodel */;
+			path = BibleQuiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB248E4C2201E80700A8F053 /* Project object */;
+}
